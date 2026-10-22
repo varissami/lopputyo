@@ -67,8 +67,11 @@ Pull Request: Pull Requestilla ehdotetaan muutosten yhdistämistä mainiin GitHu
 
 Merge-konflikti: Opin ratkaisemaan sen VS Codessa valitsemalla säilytettävän sisällön, lisäämällä tiedoston ja tekemällä commitin.
 
+Amend: "git commit --amend -m" korjaa viimeisimmän commitin viestin, kun sitä ei ole vielä pushattu. Opin, että viestin voi korjata ilman uutta committia.
+
+Merge --abort: "git merge --abort" peruu kesken jääneen yhdistämisen ja palauttaa tilan ennen mergeä. Siitä oli apua, kun yhdistin vahingossa väärässä haarassa.
+
 Kokonaisuutena opin (kantapään kautta :) ), että Git on turvallinen työkalu, koska lähes kaiken voi perua tai korjata. Komentojen muistaminen vaatii kuitenkin erittäin paljon harjoittelua, että sisäistää mitä mistäkin oikeasti tapahtuu.
 
 Tekijä Sami Varis
 opnro 2608086
-22.10.2026
